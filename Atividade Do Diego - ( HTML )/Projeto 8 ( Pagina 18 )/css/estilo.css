@@ -1,0 +1,42 @@
+html{
+  font-family: 'Roboto', sans-serif;
+}
+.caixa{
+  width: 320px;
+  height: 600px;
+  background: #bfbfbf;
+  border-radius: 8px;
+}
+.caixa2{
+  width: 320px;
+  height: 200px;
+  background: #6c7a89;
+  box-shadow: 
+    0px 0px 0px rgba(0,0,0,0.10),
+    0px 10px 20px rgba(0,0,0,0.05),
+    0px 20px 30px rgba(0,0,0,0.05),
+    0px 30px 20px rgba(0,0,0,0.05);
+
+}
+.caixa2 img{
+  width: 100px;
+  padding-top: 50px;
+  padding-left: 20px;
+}
+.caixa2 p{
+  font-family: 'Oswald', sans-serif;
+  padding-left: 35px;
+  letter-spacing: 5px;
+  text-shadow: 1px 1px 1px white;
+}
+.conteudo ul{
+  list-style: none;
+  padding-top: 20px;
+}
+.conteudo ul li{
+  padding-top: 20px;
+  letter-spacing: 3px;
+}
+.conteudo i{
+  padding-right: 10px;
+}

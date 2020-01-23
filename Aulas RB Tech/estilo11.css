@@ -1,0 +1,14 @@
+h1{
+    font-family: 'Source Sans Pro', sans-serif;
+    color: crimson;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    width: 650px;
+    text-shadow: 1px 1px 1px black;
+    font-family: 'Sniglet', cursive;
+}
+p{
+    width: 650px;
+    font-size: 15px;
+    font-family: 'Nunito', sans-serif;
+}

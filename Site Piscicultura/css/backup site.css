@@ -1,0 +1,131 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="css/teste1.css" />
+    <title>Teste de LAYOUT </title>
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu+Condensed" rel="stylesheet">
+</head>
+
+<header class="cabecalho">
+    <div class="tam">
+        <img src="img/face.png" class="face">
+        <img src="img/youtube.png" class="youtu">
+        <img src="img/twitter.png" class="tw">
+    </div>
+</header>
+    <br><br>
+
+
+
+
+
+    <ul class="lacuna">
+        <li class="side-item"><a href="#"> Inicial </a></li>
+        <li class="side-item"><a href="#"> Sobre </a></li>
+        <li class="side-item"><a href="#"> Info </a></li>
+        <li class="side-item"><a href="#"> Contato </a></li>
+        <li class="side-item"><a href="#"> Informações </a></li>
+    </ul>
+   
+
+
+
+
+
+
+
+</html>
+
+
+html{
+    font-family: 'Ubuntu Condensed', sans-serif;
+    background: #6c7a89;
+}
+.cabecalho{
+    position: absolute;
+    left: -20;
+    bottom: 517px;
+    height: 200px;
+    width: 1386px;
+    background: #2e3131;
+    top: -150;
+   
+}
+.face{
+    left: 1200px;
+    top: 157px;
+    width: 35px;
+    bottom: 100px;
+    position: absolute;
+    padding: 6px;
+}
+.youtu{
+    left: 1150px;
+    top: 157px;
+    width: 35px;
+    bottom: 100px;
+    position: absolute;
+    padding: 6px;
+    
+}
+.tw{
+    left: 1250px;
+    top: 157px;
+    width: 35px;
+    bottom: 100px;
+    position: absolute;
+    padding: 6px;
+}
+.tw:hover{
+    border-bottom: 2px solid #00acee;
+    cursor: pointer;
+    border-radius: 3px;
+    
+}
+.face:hover{
+    border-bottom: 2px solid #3b5998;
+    cursor: pointer;
+    border-radius: 3px;
+    
+}
+.youtu:hover{
+    border-bottom: 2px solid red;
+    cursor: pointer;
+    border-radius: 3px;
+}
+.tam{
+    position: relative;
+    top: -6;
+}
+
+
+.side-item{
+    list-style: none; 
+    text-decoration: none;
+    display: inline;
+    color: white;
+   
+    
+}
+.lacuna{
+    position: relative;
+    left: 200px;
+    bottom: 44px;
+    padding-left: 40px;
+}
+a{
+    text-decoration: none;
+    color: crimson;
+    font-size: 20px;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+}
+a:hover{
+    background:whitesmoke;
+    
+}

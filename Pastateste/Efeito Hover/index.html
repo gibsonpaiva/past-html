@@ -1,0 +1,32 @@
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link rel="stylesheet" href="estilo.css">
+        <title>Document</title>
+</head>
+    <body>
+        <h1>cole</h1>
+        <h2>tud bem ?</h2>
+
+        <ul>
+        <li><a href="#"><img src="img/netflix.png">  </a></li>
+        <li><a href="#"><img src="img/face.png">  </a></li>
+        <li><a href="#"><img src="img/whats.png">  </a></li>
+        <li><a href="#"><img src="img/youtube.png">  </a></li>
+        </ul>
+
+        <script src="estilo.css">
+            $(document).ready(function() {
+            $('li').click(function() {
+            $('li.active').removeClass("active"); //aqui removemos a class do item anteriormente clicado para que possamos adicionar ao item clicado
+            $(this).addClass("active"); //aqui adicionamos a class ao item clicado
+            });
+            });
+    </script>
+</script>
+
+
+    </body>
+</html>

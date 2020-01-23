@@ -1,0 +1,139 @@
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+        <link rel="stylesheet" href="css/estilo.css">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Piscicultura</title>
+</head>
+    <body>
+        <!-- AGRONEGOCIO no Menu-->
+        <div class="a-div">
+            <img src="img/mar-site.png" alt="" class="barra-menu">
+            <h1 class="agro">AGRONEGÓCIO</h1>
+            
+        </div><hr>
+
+        <div class="corpo">
+
+            <h1 class="titulo"> A Piscicultura</h1>
+            <p>A piscicultura é um dos ramos da aquicultura, que desenvolve o cultivo de peixes e outros organismos aquáticos. Essa modalidade de criação cresceu muito nos últimos anos e movimenta uma parte importante da economia do mercado no Brasil atualmente. Graças ao extenso território litorâneo do país, além da enorme produção local, o Brasil se tornou um dos países que mais consome peixe no mundo. 
+               <br><br> Na piscicultura a criação dos peixes é monitorada, as espécies são totalmente controladas, desde o início da vida até o momento em que atingem a condição ideal para consumo, com o uso de ferramentas, substâncias específicas e acompanhamento periódico para estimular o crescimento saudável dos animais.
+               <br><br> 
+               
+            <div class="img-peixe">
+               <img src="img/peixe.jpg" alt=""> 
+            </div><br>
+
+            <p>A piscicultura proporciona um elevado nível de qualidade do peixe para consumo humano, isso se deve aos cuidados com alimentação, controle das taxas de crescimento e das propriedades da água dos viveiros e tanques onde os peixes são criados.
+            <br><br> A prática da piscicultura, possibilita também, a criação de espécies que estão ameaçadas de extinção, contribuindo para a preservação da diversidade da fauna, gerando renda ao pequeno e médio produtor rural, usando um modelo de trabalho sustentável.</p>
+            <p>São três os tipos de produção: <b>Extensivo, Semi-Intensivo e Intensivo</b>.</p>
+            
+            <h1 class="titulo">Extensivo</h1>
+            <p>O sistema extensivo refere-se à prática tradicional e rudimentar, representada pela técnica de cerco, por exemplo, em áreas originalmente destinadas à outra finalidade como armazenamento de água, bebedouro de animais, energia elétrica, etc. <br> <br>
+            O povoamento é composto principalmente por espécies nativas da região. Nesse caso, a alimentação dos peixes depende apenas do que é produzido naturalmente na água, fertilizada pelos próprios animais que ocupam o local. O investimento é baixo e a produtividade por área também é proporcional.</p>
+            
+            <h1 class="titulo">Semi-Intensivo</h1>
+            <p>No cultivo semi-intensivo existe um condicionamento e uma influência no cultivo, por meio de suplementação alimentar, tratamento químico da água e mecanização de alguns processos.</p>
+                
+            <h1 class="titulo">Intensivo</h1>
+            <p>Já o sistema intensivo apresenta uma produção bem controlada e sistematizada, visando à otimização da criação e o seu melhor retorno produtivo. O cultivo é feito em tanques-rede, estruturas submersas feitas de telas de arame revestido de PVC, para confinamento da criação em açudes ou represas. Dentre as espécies mais comumente cultivadas através desse processo estão o salmão, o atum e a tilápia. <br><br>
+
+                    A prática intensiva é a que mais evolui nos países em desenvolvimento atualmente, pois permite a livre e constante circulação da água, que mantém o oxigênio necessário à criação, facilita a retirada e o manejo dos peixes, diminui os custos com tratamentos de doenças e, além disso, a produtividade alcançada é bastante superior às outras técnicas.</p>
+        
+        </div>
+        
+        
+    </body> <br><br><br><br><br>
+    
+    <div class="copy"><p>&copy; 2019 NeverLost.com.br<p></p></div>
+
+</html>
+
+
+html{
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
+    /* MENU */
+.barra-menu{
+    width: 100%;
+    height: 50px;
+    border: none;
+    border-radius:  none;
+}
+
+hr{
+    width: 98%;
+}
+.agro{
+    text-align: center;
+    position: relative;
+    top: 5px;
+    text-shadow: 2px 2px 2px black;
+    color: white;
+    top: -65;
+    bottom: 50px;
+    letter-spacing: 3px;
+    
+}
+.a-div{
+    height: 50px;
+}
+
+
+    /* Conteúdo da Página */
+
+.corpo{
+    background: white;
+    border-radius: 10px;
+    position: relative;
+    width: 1000px;
+    height: 250%;
+    left: 190px;
+    top: 50px; 
+    box-shadow: 
+               0px 0px 0px rgba(0,0,0,0.10),
+               0px 10px 20px rgba(0,0,0,0.05),
+               0px 20px 30px rgba(0,0,0,0.05),
+               0px 30px 20px rgba(0,0,0,0.05);
+   
+}
+p{
+    text-align: justify;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+img{
+    width: 35%;
+    border: 3px solid #2e3131;
+    border-radius: 3px;
+}  
+.img-peixe{
+    text-align: center;
+}
+.titulo{
+    padding-top: 10px;
+    padding-left: 15px;
+}
+.regua{
+    width: 25%;
+    position: relative;
+    right: 235px;
+}
+.copy{
+    background: #2e3131;
+    
+    
+}
+.copy p{
+    text-align: center;
+    padding-top: 20px;
+    color: white;
+}

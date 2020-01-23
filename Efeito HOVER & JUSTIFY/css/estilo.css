@@ -1,0 +1,23 @@
+html{
+    font-family: 'Ubuntu Condensed', sans-serif;
+}
+.cabecalho{
+    display: flex;
+    justify-content: space-between;
+    background: #34495e;
+}
+.conteudo2 ul{
+    list-style: none;
+}
+.conteudo2 ul li{
+    display: inline;
+    padding: 10px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+.conteudo2 ul li:hover{
+    background: whitesmoke;
+}
+.conteudo{
+    margin-left: 20px;
+}

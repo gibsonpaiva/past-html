@@ -1,0 +1,22 @@
+html{
+    font-family: 'Roboto', sans-serif;
+    background: #dadfe1;
+}
+.pai{
+  display: flex;
+  justify-content: space-between;
+}
+.menu{
+  display: flex;
+  list-style: none;
+  padding-right: 10px;
+}
+.pai2{
+  display: block;
+  justify-content: center;
+  
+}
+.filho{
+  display: flex;
+  justify-content: center;
+}

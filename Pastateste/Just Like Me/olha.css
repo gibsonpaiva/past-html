@@ -1,0 +1,57 @@
+html{
+    background: white;
+    
+}
+li{
+    display: inline;
+    font-size: 35px;
+     
+}
+a{
+    text-decoration: none;
+    color: crimson;
+    padding: 10px;
+}
+a:hover{
+    background: grey;
+    border-radius: 3px;
+   
+}
+.bolt{
+   float: right;
+   position: relative;
+   text-shadow: 1px 1px 1px black; 
+}
+p{
+    line-height: 30px;
+    text-align: left;
+    
+   
+}
+div{
+    background: white;
+    border-radius: 10px;
+    position: relative;
+    width: 900px;
+    left: 240px;
+    top: 50px; 
+    box-shadow: 
+               0px 0px 0px rgba(0,0,0,0.10),
+               0px 10px 20px rgba(0,0,0,0.05),
+               0px 20px 30px rgba(0,0,0,0.05),
+               0px 30px 20px rgba(0,0,0,0.05);
+}
+h1{
+    text-align: left;
+    padding-bottom: 90px;
+}
+ul{
+    text-align: center;
+    padding-bottom: 90px;
+}
+
+.whatss{
+    float: right;
+  
+   text-shadow: 1px 1px 1px black;
+}

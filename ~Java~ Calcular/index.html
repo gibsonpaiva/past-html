@@ -1,0 +1,56 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu+Condensed" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Java Script</title>
+
+    <style>
+        html{
+            background: #2e3131;
+        }
+        #campo-1{
+            border-radius: 5px;
+        }
+        #campo-2{
+            border-radius: 5px;
+        }
+        main{
+            text-align: center;
+        }
+    </style>
+
+</head>
+<body>
+    <main>
+        <div id="container">
+            <form action="">
+
+                <div class="input-group">
+                    <input id="campo-1" type="text" name="" value="0">
+                </div>
+
+                <div class="input-group">
+                    <input id="campo-2" type="text" name="" value="0">
+                </div>
+
+                <div class="input-group">
+                    <input id="resultado" type="text" name="" value="0">
+                </div>
+
+                <div class="input-group">
+                    <input type="button" value="+" onclick="soma()">
+                    <input type="button" value="-" onclick="subtração()"> 
+                    <input type="button" value="*" onclick="multiplicação()">
+                    <input type="button" value="/" onclick="divisão()">
+                    <input type="button" value="%" onclick="modulo()">
+                </div>
+
+            </form>
+        </div>
+    </main>
+    <script src="main.js"></script>
+</body>
+</html>

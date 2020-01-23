@@ -1,0 +1,120 @@
+                /* Meus códigos CSS */
+
+/*Codigo para Linkar o HTML para o CSS */
+<link rel="stylesheet" type="text/css" href="estilo.css" />
+
+/* ALGUMAS TAGS */
+{
+    color: red;     /* Mudar de cor da fonte*/
+    text-decoration: none;  /* Tirar o sublinhado do LINK */
+    font-size: 18px;    /* Tamanho da fonte*/
+    font-family: Helvetica, sans-serif;   /* Mudar a fonte*/
+    list-style: none;  /* Tirar as bolinhas da frente do li */
+    text-align: center, right; | justify; --> /* colocar o texto certinho*/ /* Mudar posição do texto */
+    background: red;    /* Mudar a cor da tela do fundo da Página da Web */
+    border: 1px solid;  /* Borda nas imagens */
+    letter-spacing: 2px;  /* Espaçamento entre as letras*/
+    text-transform: uppercase;  /* Colocar as letras em maiúsculas ou minúsculas */
+    text-indent: 50px;  /* Colocar um parágrafo , disntancia em pixels */
+    text-shadow: 1px 1px 1px black; /* COlocar  sombras na fonte */
+    cursor: pointer;   /* Cursor ficar com a mãozinha */
+    max-width: 100%;    /* As imagens ficam com a largura máxima */
+    example:hover;     /* mudar o link quando passar o mouse */
+    border-radius: 3px;   /* Colocar borda arredondada no Link  */
+    display: inline;       /* Os links ficarem um do lado do outro */
+    padding: 10px;   /* É o espaçamento em que o texto fica da borda ou margem */
+    display: block;     /*  colocar os links um em cima do outro */
+    label;  /* Significa um rotulo, para explicar o que vem em seguida */
+    box-shadow: 5px 5px 5px black; /* Colocar sombras nas DIVs */
+    transition: 0.25s; /* Colocar no hover , um modo SUAVE */
+    float: right; /* Deixar os itens do lado, como uma imagem do lado de um texto */
+    height: 200px; /* Parte de baixa , por exemplo de uma DIV */
+    example: active; /* Quando aperta no exemplo, ele muda. Igual o hover , mas quando clicado */
+    font-weight:900; /* Deixar a fonte mais Grossa */
+}
+
+{   /* Colocar uma imagem centralizada */
+     display: block;
+      margin-left: auto;
+      margin-right: auto; }
+
+{   /* Posicionar os conteúdos nas páginas */
+    position: absolute;  ou postion: relative;
+    top: 60px;
+    left: 530px;
+ 
+}
+
+{  /* Código para BOTÂO ( Com LINK ) */
+    <form method="get" action=" https://www.google.com.br">
+    <button type="submit"> APERTE ESTE BOTÃO</button></form>
+
+    /* Mudar o background do HOVER */
+  {   padding: 14px 16px;   largura , altura ;}
+
+/* Identificar para mudar só quando colocar ( ID ) SÓ UM POR VEZ */
+Colocar no HTML > id="identificador"
+Colocar no CSS > #indetificador
+
+/* IDENTIFICAR VARIAS AO MESMO TEMPO , QUE SÃO CLASSES */
+Colocar no HTML > class="link"
+Colocar no CSS > .link
+
+/* "PADDING" é o espaçamento em que o texto fica da borda ou margem */
+
+{ list-style: none; /* Tirar as bolinhas da frente do li */
+
+            /* FONTES FAMILIAS */
+font-family: 'Source Sans Pro', sans-serif;
+
+<link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+font-family: 'Roboto', sans-serif;
+
+    /* Side Bar MENU */     
+}
+body,html{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100px;   
+}
+.sidebar{
+    float: left;
+    width: 100px;
+    height: 100%;
+    background: springgreen;
+    overflow: hidden;
+    box-shadow: 
+               0px 0px 0px rgba(0,0,0,0.10),
+               0px 10px 20px rgba(0,0,0,0.05),
+               0px 20px 30px rgba(0,0,0,0.05),
+               0px 30px 20px rgba(0,0,0,0.05);
+}
+
+/* Colocar sombras na parte de trás das DIVS, caixas*/
+{              box-shadow: 
+               0px 0px 0px rgba(0,0,0,0.10),
+               0px 10px 20px rgba(0,0,0,0.05),
+               0px 20px 30px rgba(0,0,0,0.05),
+               0px 30px 20px rgba(0,0,0,0.05);   }
+               
+
+
+/*  Colocar a Barra Menu certinho */        
+body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
+
+
+/* Centralizar o conteúdo na página */
+
+div{
+    position: relative;
+    width: 900px;
+    left: 240px;
+    top: 50px;
+}
+

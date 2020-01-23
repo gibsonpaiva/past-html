@@ -1,0 +1,105 @@
+<!--COMO TRABALHAR COM A ESTRUTURA DO SITE-->
+<!doctype html>
+<html>
+    <head>
+            <title>testeRBTech</title> <link rel="icon" href="img/22.ico">
+            <meta charset="utf-8" />
+            <link rel="stylesheet" type="text/css" href="estilo09.css" />
+    </head>
+
+    <body>
+        <div id="wrap">
+            <header>
+                    <h1>Nome do site</h1>
+                <nav>
+                     <ul>
+                        <li><a href="#"> Menu 1 </a></li> 
+                        <li><a href="#"> Menu 2 </a></li> 
+                        <li><a href="#"> Menu 3 </a></li> 
+                        <li><a href="#"> Menu 4 </a></li> 
+                        <li><a href="#"> Menu 5 </a></li> 
+                     </ul>
+                </nav>
+            </header>
+
+            <div id="content">
+                <section>
+                        <h2>Título da seção</h2>
+                        <p>Conteúdo da seção</p>
+                </section>
+                <article>
+                        <h2>Título do artigo</h2>
+                        <p>Conteúdo do artigo</p>
+                </article>
+            </div>
+
+            <div id="sidebar">
+                <aside>
+                        <ul>
+                            <li><a href="#"> Submenu 1 </a></li> 
+                            <li><a href="#"> Submenu 2 </a></li> 
+                            <li><a href="#"> Submenu 3 </a></li> 
+                            <li><a href="#"> Submenu 4 </a></li> 
+                            <li><a href="#"> Submenu 5 </a></li>   
+                        </ul>
+                </aside>
+            </div> 
+
+            <footer>
+                Rodapé do site
+            </footer>
+        </div>
+    </body>
+ </html>
+
+body{
+    font-family: helvetica, sans-serif;
+}
+#wrap{
+    width: 960px; 
+    margin: auto;
+    background: #e3e3e3;
+    padding: 10px 20px;
+    
+}
+header nav ul{
+    list-style: none;
+    padding-left: 0;
+}
+header nav ul li{
+    display: inline-block;
+    margin-right: 10px;
+}
+header nav ul li a{
+    font-size: 18px;
+    color: #ff6600;
+    text-decoration: none;
+}
+header nav ul li a:hover{
+    text-decoration: underline;
+}
+#content{
+    float: left;
+    width: 660px;
+}
+#sidebar{
+    float: right;
+    width: 300px;
+}
+#sidebar ul{
+    list-style: none;
+}
+#sidebar ul li a{
+    color: #ff6600;
+    text-decoration: none;
+}
+#sidebar ul li a:hover{
+    text-decoration: underline;
+}
+footer{
+    clear: both;
+}
+footer{
+    color: red;
+}
+

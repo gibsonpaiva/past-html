@@ -1,0 +1,73 @@
+html{
+  font-family: 'Roboto', sans-serif;
+}
+
+header{
+  display: flex;
+  justify-content: space-between;
+  background: #59abe3;
+    box-shadow: 
+    0px 0px 0px rgba(0,0,0,0.10),
+    0px 10px 20px rgba(0,0,0,0.05),
+    0px 20px 30px rgba(0,0,0,0.05),
+    0px 30px 20px rgba(0,0,0,0.05);
+    border-radius: 7px;
+    height: 200px;
+}
+.cx1{
+    display: block;
+    justify-content: center;
+    height: 300px;
+    width: 300px;
+    padding-left: 20px;
+}
+.cx2{
+  display: flex;
+  justify-content: space-between;
+  height: 300px;
+  width: 300px;
+  position: relative;
+  right: 220px;
+}
+.cx2 div{
+  margin-left: 10px;
+  padding-right: 90px;
+}
+.rodape{
+  width: 1350px;
+  height: 60px;
+  background: #22313f;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 4px;
+  box-shadow: 
+  0px 0px 0px rgba(0,0,0,0.10),
+  0px 10px 20px rgba(0,0,0,0.05),
+  0px 20px 30px rgba(0,0,0,0.05),
+  0px 30px 20px rgba(0,0,0,0.05);
+}
+.rodape .ko{
+  padding-top: 20px;
+  padding-left: 20px;
+  color: whitesmoke;
+}
+
+img{
+  width: 30px;
+  padding-left: 20px;
+  padding-top:13px;
+  padding-right: 20px;
+}
+.form{
+  border-radius: 4px;
+  border: none;
+}
+.button{
+  border-radius: 4px;
+  border: none;
+  color: white;
+  background: #24252a;
+}
+
+
+

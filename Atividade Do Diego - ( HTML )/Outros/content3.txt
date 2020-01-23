@@ -1,0 +1,60 @@
+<html lang="en">
+    <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta http-equiv="X-UA-Compatible" content="ie=edge">
+      <title>Document</title>
+    </head>
+   <body>
+  <header>
+    <div class="pai">
+     
+      
+      
+       <div>
+      <p>IMAGEM</p>
+      </div>
+      
+          <div class="pesquisa">
+              
+               
+              
+                <input type="text" name="user" class="forma">
+                <input type="submit" value="Pesquisar" class="enviar">
+                
+              
+            </div>
+      
+        <ul class="menu">
+        <li>Inicio</li>
+        <li>login</li>
+        <li>Contato</li>
+        <li>Sobre</li>
+        <li>Ajuda</li>
+      </ul>
+    </div>
+    
+  </header>   
+  
+  
+  </body>
+  
+  
+</html>
+
+
+
+.pai{
+  display: flex;
+  justify-content: space-between;
+}
+.menu{
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  
+}
+.menu li{
+  margin-right: 5px;
+}
+
